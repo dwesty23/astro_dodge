@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class astro : MonoBehaviour
 {
@@ -13,5 +14,14 @@ public class astro : MonoBehaviour
             rb.MovePosition(rb.position + Vector2.up);
         else if (Input.GetKeyDown(KeyCode.DownArrow))
             rb.MovePosition(rb.position + Vector2.down);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "Brick")
+        {
+            Debug.Log("Game Over");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
