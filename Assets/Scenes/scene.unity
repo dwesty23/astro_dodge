@@ -375,8 +375,8 @@ Transform:
   m_GameObject: {fileID: 622554764}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.217, y: -0.2896, z: 0}
-  m_LocalScale: {x: 0.8887425, y: 0.9673, z: 1}
+  m_LocalPosition: {x: 0.0948, y: -0.0932, z: 0}
+  m_LocalScale: {x: 1.0215206, y: 0.9234813, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -399,6 +399,9 @@ MonoBehaviour:
   rocksPerRow: 7
   gapBetweenRows: 2
   rowLength: 17
+  moveAmount: 1
+  moveSpeed: 1
+  spawnProbability: 0.8
 --- !u!50 &622554768
 Rigidbody2D:
   serializedVersion: 4
@@ -642,7 +645,7 @@ Transform:
   m_GameObject: {fileID: 1088545909}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4967, y: -2.296, z: 0}
+  m_LocalPosition: {x: 13.51, y: -2.76, z: 0}
   m_LocalScale: {x: 0.09070477, y: 0.099881254, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -800,7 +803,7 @@ Transform:
   m_GameObject: {fileID: 2104362288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.1395, y: -2.6808, z: 0}
+  m_LocalPosition: {x: 13.11, y: -1.17, z: 0}
   m_LocalScale: {x: 0.03544134, y: 0.05294783, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -6,16 +6,18 @@ public class Spawner : MonoBehaviour
 {
     public GameObject asteroidPrefab;
     public GameObject collectiblePrefab;
-    public int numberOfRows = 5;
-    public int rocksPerRow = 5;
+    public int numberOfRows = 4;
+    public int rocksPerRow = 7;
     public float gapBetweenRows = 3.0f; // Vertical spacing between rows
     public float rowLength = 10.0f; // Horizontal length of a row
     public float moveAmount = 1.0f;
     public float moveSpeed = 1.0f;
-    public float spawnProbability = 0.4f;
+    public float spawnProbability = 0.7f;
 
     private List<Vector3> rockPositions;
-    private float safeDistance = 4.0f;
+    
+    
+    private float safeDistance = 1.0f;
 
     void Start()
     {
@@ -91,6 +93,7 @@ public class Spawner : MonoBehaviour
         {
             if (Vector3.Distance(rockPosition, position) < safeDistance)
             {
+                Debug.Log("Rock at " + rockPosition + " is too close to " + position);
                 return false;
             }
         }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Include this for scene management
 
 public class Player : MonoBehaviour
 {
@@ -16,13 +17,16 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        
-       Debug.Log("Triggered with " + other.gameObject.name);
-       
+        Debug.Log("Triggered with " + other.gameObject.name);
+
         if (other.gameObject.CompareTag("Collectible"))
         {
             Destroy(other.gameObject);
-            // Add score or effects
+        }
+        else if (other.gameObject.CompareTag("Aesteriod"))
+        {
+            // Restart the game by reloading the current scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
