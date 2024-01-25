@@ -16,4 +16,9 @@ public class Brick : MonoBehaviour
         Vector2 forward = new Vector2(transform.right.x, transform.right.y);
         rb.MovePosition(rb.position + forward * Time.fixedDeltaTime * speed);
     }
+
+    void Update()
+    {
+        Destroy(gameObject, 10f);
+    }
 }
