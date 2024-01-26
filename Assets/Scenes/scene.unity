@@ -375,7 +375,7 @@ Transform:
   m_GameObject: {fileID: 622554764}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0948, y: -0.0932, z: 0}
+  m_LocalPosition: {x: -0.22, y: 0, z: 0}
   m_LocalScale: {x: 1.0215206, y: 0.9234813, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -397,7 +397,7 @@ MonoBehaviour:
   collectiblePrefab: {fileID: 1088545909}
   numberOfRows: 4
   rocksPerRow: 7
-  gapBetweenRows: 2
+  gapBetweenRows: 2.5
   rowLength: 17
   moveAmount: 1
   moveSpeed: 1
@@ -665,7 +665,7 @@ GameObject:
   - component: {fileID: 2104362289}
   m_Layer: 0
   m_Name: rock
-  m_TagString: Respawn
+  m_TagString: Aesteriod
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -803,8 +803,8 @@ Transform:
   m_GameObject: {fileID: 2104362288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.11, y: -1.17, z: 0}
-  m_LocalScale: {x: 0.03544134, y: 0.05294783, z: 1}
+  m_LocalPosition: {x: 13.1581, y: -1.2341, z: 0}
+  m_LocalScale: {x: 0.032701723, y: 0.04594283, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
