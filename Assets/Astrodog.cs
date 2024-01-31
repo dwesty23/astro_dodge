@@ -15,7 +15,7 @@ public class Astrodog : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.tag == "Asteroid")
+        if (col.tag == "Asteroid" || col.tag == "UFO")
         {
             Debug.Log("Game Over");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);

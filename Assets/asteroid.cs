@@ -19,6 +19,7 @@ public class asteroid : MonoBehaviour
 
     void Update()
     {
-        Destroy(gameObject, 10f);
+        Destroy(gameObject, 5f);
+        
     }
 }

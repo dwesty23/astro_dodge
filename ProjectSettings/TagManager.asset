@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Brick
   - Asteroid
+  - UFO
   layers:
   - Default
   - TransparentFX
