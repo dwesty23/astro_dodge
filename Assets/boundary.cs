@@ -15,8 +15,13 @@ public class boundary : MonoBehaviour
         // screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         // Debug.Log(screenBounds);
 
-        minBounds = Actual_bg.bounds.min;
-        maxBounds = Actual_bg.bounds.max;
+        float camHeight = Camera.main.orthographicSize;
+        float camWidth = Camera.main.aspect * camHeight;
+
+        minBounds = Actual_bg.bounds.min + new Vector3(camWidth, camHeight, 0);
+        maxBounds = Actual_bg.bounds.max - new Vector3(camWidth, camHeight, 0);
+        // minBounds = Actual_bg.bounds.min;
+        // maxBounds = Actual_bg.bounds.max;
         
     }
 
