@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -228}
-  m_SizeDelta: {x: 322.5, y: 179.56}
+  m_SizeDelta: {x: 180.375, y: 100.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62615094
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: cfc2cc284c16f43efb1b079227d7209f, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 22185a16b62044845abc837dab0e75b8, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -206,7 +206,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 908213855}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: Explanation, Assembly-CSharp
         m_MethodName: OnPlayButton
         m_Mode: 1
         m_Arguments:
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b11b9deedac9a419b83a83becf5730af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf1e2e294836c4225a282f500125af00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7eb13efa4c27443f88aa5eb925745f15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3e0ab3399103b434099a7de4e2c9eaad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 908213850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bff452f9d06a84b7f86dfc5171c05dc9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0faf30692c70a49038ae1fb3a10416ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1466033312

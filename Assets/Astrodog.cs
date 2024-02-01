@@ -18,7 +18,7 @@ public class Astrodog : MonoBehaviour
         if (col.tag == "Asteroid" || col.tag == "UFO")
         {
             Debug.Log("Game Over");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(3);
         }
     }
 }
