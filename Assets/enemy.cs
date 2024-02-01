@@ -3,7 +3,7 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
 
-    [SerializeField] float moveSpeed = 2f;
+    [SerializeField] float moveSpeed = 1f;
     public Rigidbody2D rb;
 
     Transform target;
