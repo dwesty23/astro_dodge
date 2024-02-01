@@ -4,7 +4,7 @@ public class camera_follow : MonoBehaviour
 {
     public Transform player;
     public Vector3 offset;
-    public float smoothSpeed = 0.125f;
+    public float smoothSpeed = 1f;
 
     void LateUpdate()
     {
