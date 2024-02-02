@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class BrickSpawner : MonoBehaviour
+public class AsteroidSpawner : MonoBehaviour
 {
     public float spawnDelay = .3f;
     float nextTimeToSpawn = 0f;
 
-    public GameObject brickPrefab;
+    public GameObject asteroidPrefab;
 
     public Transform[] spawnPoints;
 
@@ -13,16 +13,16 @@ public class BrickSpawner : MonoBehaviour
     {
         if (nextTimeToSpawn <= Time.time)
         {
-            SpawnBrick();
+            SpawnAsteroid();
             nextTimeToSpawn = Time.time + spawnDelay;
         }    
     }
 
-    void SpawnBrick()
+    void SpawnAsteroid()
     {
         int randomIndex = Random.Range(0, spawnPoints.Length);
         Transform spawnPoint = spawnPoints[randomIndex];
 
-        Instantiate(brickPrefab, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(asteroidPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }

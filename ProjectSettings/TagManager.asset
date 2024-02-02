@@ -5,6 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Brick
+  - Asteroid
+  - UFO
+  - part1
+  - part2
+  - part3
+  - part4
+  - part5
+  - ship
+  - ip3
+  - ip2
+  - ip1
+  - ip4
+  - ip5
   layers:
   - Default
   - TransparentFX
