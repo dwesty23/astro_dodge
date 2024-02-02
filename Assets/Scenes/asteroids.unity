@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60bcb534ecf1e4f17a5c66d8fc120e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 8
   rb: {fileID: 1076873468}
   hasPart: 0
   partsColelcted: 0
@@ -1116,18 +1116,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.023122787, y: 0.26014638}
+  m_Offset: {x: -0.03856635, y: -0.020754218}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.88, y: 9.94}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 7.88, y: 9.94}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.201352, y: 6.728667}
+  m_Size: {x: 2.0039778, y: 2.8779447}
   m_EdgeRadius: 0
 --- !u!212 &1076873470
 SpriteRenderer:
@@ -1170,7 +1170,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b0c852e5a0e8e4ad8aeac95d2ad83f71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f3cfc1c2a6e548d18e8831a4ee2f0dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1191,7 +1191,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -20.34, z: 0}
-  m_LocalScale: {x: 0.25189596, y: 0.29106617, z: 2.0866246}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 2.0866246}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2132,7 +2132,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 40ba973c8c3d64311abf19ba69806f95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74e993233423c4b008665b1f73eb1092, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2585,8 +2585,8 @@ Transform:
   m_GameObject: {fileID: 1878620323}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 14.4, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0.1, y: -8.95, z: 0}
+  m_LocalScale: {x: 1.2582, y: 1.49325, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
