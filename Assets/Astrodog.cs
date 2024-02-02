@@ -99,6 +99,7 @@ public class Astrodog : MonoBehaviour
                 if (partsColelcted == 5)
                 {
                     Debug.Log("You Win!");
+                    SceneManager.LoadScene(4);
                 }
             }
             else
