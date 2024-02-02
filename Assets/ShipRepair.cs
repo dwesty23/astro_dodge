@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShipRepair : MonoBehaviour
 {
+    [SerializeField] private AudioSource shipRepairSound;
     public Sprite[] shipStages;
     public int currentStage = 0;
     private SpriteRenderer spriteRenderer;
@@ -65,6 +66,7 @@ public class ShipRepair : MonoBehaviour
     void UpdateShipImage()
     {
         Debug.Log("UpdateShipImage");
+        shipRepairSound.Play();
         spriteRenderer.sprite = shipStages[currentStage];   
     }
 
