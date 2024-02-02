@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Astrodog : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 15f;
     public Rigidbody2D rb;
     public bool hasPart = false;
     public int partsColelcted = 0;
