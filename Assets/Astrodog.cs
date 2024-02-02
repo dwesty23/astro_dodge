@@ -42,6 +42,7 @@ public class Astrodog : MonoBehaviour
                 {
                     indicatorP1 indicatorP1 = GameObject.FindGameObjectWithTag("ip1").GetComponent<indicatorP1>();
                     Debug.Log(indicatorP1);
+                    Debug.Log("You have collected part 1");
                     indicatorP1.UpdatePart();
                 }
                 if (col.tag == "part2")

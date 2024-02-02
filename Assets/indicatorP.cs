@@ -16,16 +16,19 @@ public class indicatorP1 : MonoBehaviour
     }
     public void UpdatePart()
     {
-        Debug.Log("UpdatePart1");
+        Debug.Log("UpdatePart1 started");
         if(currentStage < partStages.Length - 1)
         {
+            Debug.Log("UpdatePart 1 works");
             currentStage++;
             UpdatePartImage();
         }
+        
     }
 
     public void UpdatePartImage()
     {
+        Debug.Log("UpdatePartImage triggered eddekeddedede");
        
         Debug.Log("UpdatePartImage");
         spriteRenderer.sprite = partStages[currentStage];   

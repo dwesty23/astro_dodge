@@ -13,6 +13,11 @@ TagManager:
   - part4
   - part5
   - ship
+  - ip3
+  - ip2
+  - ip1
+  - ip4
+  - ip5
   layers:
   - Default
   - TransparentFX
