@@ -30,8 +30,44 @@ public class Astrodog : MonoBehaviour
             {
                 hasPart = true;
                 partsColelcted++;
+
+                ShipRepair shipRepair = GameObject.Find("Ship").GetComponent<ShipRepair>();
+                shipRepair.SetPartName(col.tag);
+
                 Destroy(col.gameObject);
                 Debug.Log("You have collected a part");
+                
+
+                if (col.tag == "part1")
+                {
+                    indicatorP1 indicatorP1 = GameObject.FindGameObjectWithTag("ip1").GetComponent<indicatorP1>();
+                    Debug.Log(indicatorP1);
+                    indicatorP1.UpdatePart();
+                }
+                if (col.tag == "part2")
+                {
+                    indicatorP2 indicatorP2 = GameObject.FindGameObjectWithTag("ip2").GetComponent<indicatorP2>();
+                    Debug.Log(indicatorP2);
+                    indicatorP2.UpdatePart();
+                }
+                if (col.tag == "part3")
+                {
+                    indicatorP3 indicatorP3 = GameObject.FindGameObjectWithTag("ip3").GetComponent<indicatorP3>();
+                    Debug.Log(indicatorP3);
+                    indicatorP3.UpdatePart();
+                }
+                if (col.tag == "part4")
+                {
+                    indicatorP4 indicatorP4 = GameObject.FindGameObjectWithTag("ip4").GetComponent<indicatorP4>();
+                    Debug.Log(indicatorP4);
+                    indicatorP4.UpdatePart();
+                }
+                if (col.tag == "part5")
+                {
+                    indicatorP5 indicatorP5 = GameObject.FindGameObjectWithTag("ip5").GetComponent<indicatorP5>();
+                    Debug.Log(indicatorP5);
+                    indicatorP5.UpdatePart();
+                }
 
             }
             else
@@ -42,6 +78,7 @@ public class Astrodog : MonoBehaviour
         }
 
         if (col.tag == "ship") {
+            Debug.Log("You have entered the ship");
             if(hasPart == true)
             {
                 hasPart = false;
