@@ -458,12 +458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages:
-  - {fileID: 21300000, guid: 224d2b23b3c3a4a5f8b0813655831079, type: 3}
-  - {fileID: 21300000, guid: 1b478f012a1754996a003265e3b6cb9c, type: 3}
-  - {fileID: 21300000, guid: 618e41dcd1ab24dcc84c0aa4719b0804, type: 3}
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &450277820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,9 +470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages: []
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!1 &462815324
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,12 +990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages:
-  - {fileID: 21300000, guid: 224d2b23b3c3a4a5f8b0813655831079, type: 3}
-  - {fileID: 21300000, guid: 1b478f012a1754996a003265e3b6cb9c, type: 3}
-  - {fileID: 21300000, guid: 618e41dcd1ab24dcc84c0aa4719b0804, type: 3}
-  currentStage: 1
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1045532646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1017,9 +1002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages: []
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!1 &1076873466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60bcb534ecf1e4f17a5c66d8fc120e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 15
   rb: {fileID: 1076873468}
   hasPart: 0
   partsColelcted: 0
@@ -1689,12 +1671,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages:
-  - {fileID: 21300000, guid: 224d2b23b3c3a4a5f8b0813655831079, type: 3}
-  - {fileID: 21300000, guid: 1b478f012a1754996a003265e3b6cb9c, type: 3}
-  - {fileID: 21300000, guid: 618e41dcd1ab24dcc84c0aa4719b0804, type: 3}
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1476221747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,9 +1683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages: []
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1476221748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1826,12 +1799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages:
-  - {fileID: 21300000, guid: 224d2b23b3c3a4a5f8b0813655831079, type: 3}
-  - {fileID: 21300000, guid: 1b478f012a1754996a003265e3b6cb9c, type: 3}
-  - {fileID: 21300000, guid: 618e41dcd1ab24dcc84c0aa4719b0804, type: 3}
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1504900192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,9 +1811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages: []
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1504900193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2292,12 +2256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages:
-  - {fileID: 21300000, guid: 224d2b23b3c3a4a5f8b0813655831079, type: 3}
-  - {fileID: 21300000, guid: 1b478f012a1754996a003265e3b6cb9c, type: 3}
-  - {fileID: 21300000, guid: 618e41dcd1ab24dcc84c0aa4719b0804, type: 3}
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1704950515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2310,9 +2268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085753fad3753469a8c806a8716eba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partStages: []
-  currentStage: 0
-  spriteRenderer: {fileID: 0}
 --- !u!114 &1704950516
 MonoBehaviour:
   m_ObjectHideFlags: 0
