@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class Astrodog : MonoBehaviour
@@ -8,26 +9,37 @@ public class Astrodog : MonoBehaviour
     public bool hasPart = false;
     public int partsColelcted = 0;
 
+    [SerializeField] private AudioSource deathSound;
+    [SerializeField] private AudioSource screamSound;
+    [SerializeField] private AudioSource partSound;
+    [SerializeField] private AudioSource repairSound;
+
     void Update()
     {
         float x = Input.GetAxis("Horizontal") * moveSpeed;
         float y = Input.GetAxis("Vertical") * moveSpeed;
-
         rb.AddForce(new Vector2(x, y));
     }
-
+    IEnumerator LoadSceneAfterSound()
+    {
+        yield return new WaitForSeconds(.25f);
+        SceneManager.LoadScene(3);
+        
+    }
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Asteroid" || col.tag == "UFO")
         {
             Debug.Log("Game Over");
-            SceneManager.LoadScene(3);
+            deathSound.Play();
+            StartCoroutine(LoadSceneAfterSound());
         }
 
         if (col.tag == "part1" || col.tag == "part2" || col.tag == "part3" || col.tag == "part4" || col.tag == "part5")
         {
             if(hasPart == false)
             {
+                partSound.Play();
                 hasPart = true;
                 partsColelcted++;
 
@@ -102,4 +114,5 @@ public class Astrodog : MonoBehaviour
         return hasPart;
 
     }
+
 }
